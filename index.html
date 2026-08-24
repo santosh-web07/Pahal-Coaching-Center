@@ -326,17 +326,33 @@
     </div>
   </footer>
 
-
-  <!-- WhatsApp Floating Button -->
-  <a
-    href="https://wa.me/919953041384?text=Hello%20Pahal%20Coaching%20Center%2C%20I%20want%20to%20know%20about%20the%20new%20batch."
-    class="whatsapp-btn"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Contact on WhatsApp"
-  >
+<!-- WhatsApp Floating Button -->
+<div class="whatsapp-wrapper">
+  <button class="whatsapp-btn" type="button" onclick="toggleWhatsAppMenu()">
     <i class="fa-brands fa-whatsapp"></i>
-  </a>
+  </button>
+
+  <div class="whatsapp-menu" id="whatsappMenu">
+    <p>Contact us on WhatsApp</p>
+
+    <a
+      href="https://wa.me/919953041384?text=Hello%20Pahal%20Coaching%20Center%2C%20I%20want%20to%20know%20about%20the%20new%20batch."
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WhatsApp 1
+    </a>
+
+    <a
+      href="https://wa.me/91SECONDNUMBER?text=Hello%20Pahal%20Coaching%20Center%2C%20I%20want%20to%20know%20about%20the%20new%20batch."
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WhatsApp 2
+    </a>
+  </div>
+</div>
+  
 
 
   <script src="script.js"></script>
