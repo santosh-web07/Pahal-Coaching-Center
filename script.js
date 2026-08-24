@@ -102,7 +102,7 @@ enquiryForm.addEventListener("submit", (event) => {
 
 
   const whatsappURL =
-    `https://wa.me/918750129887?text=${whatsappMessage}`;
+    `https://wa.me/919953041384?text=${whatsappMessage}`;
 
 
   // Success message
