@@ -140,3 +140,8 @@ if (yearElement) {
 studentPhone.addEventListener("input", () => {
   studentPhone.value = studentPhone.value.replace(/\D/g, "");
 });
+
+function toggleWhatsAppMenu() {
+  const menu = document.getElementById("whatsappMenu");
+  menu.classList.toggle("show");
+}
